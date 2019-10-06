@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/avivajpeyi/fit1048-unittest-demo.svg?branch=master)](https://travis-ci.org/avivajpeyi/fit1048-unittest-demo/builds)
 
-[![Coverage Status](https://coveralls.io/repos/avivajpeyi/fit1048-unittest-demo/badge.png?branch=master)](https://coveralls.io/r/avivajpeyi/fit1048-unittest-demo?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/avivajpeyi/FIT1048-unittest-demo/badge.svg?branch=master)](https://coveralls.io/github/avivajpeyi/FIT1048-unittest-demo?branch=master)
 
 ###### [Uses Craig Scott's approach](https://crascit.com/2015/07/25/cmake-gtest/)
 # Unit Test Demo with Google Test
