@@ -19,9 +19,7 @@ script:
   - ctest
 
 after_success:
-  - coveralls --root .. --exclude ".*external.*" --exclude ".*CMakeFiles.*" --exclude
-    ".*test/.* --exclude googletest  --exclude "gtest*" --exclude "sample*" --exclude
-    "widget*"
+  - coveralls --root .. --exclude ".*external.*" --exclude ".*CMakeFiles.*" --exclude ".*test/.* --exclude googletest  --exclude "gtest*" --exclude "sample*" --exclude "widget*"
   - .cpp.*"
 
 notifications:
