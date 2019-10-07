@@ -19,7 +19,7 @@ script:
   - ctest
 
 after_success:
-  - coveralls --root . -E * -I src
+  - coveralls --root .. -E * -I src
   - .cpp.*"
 
 notifications:
