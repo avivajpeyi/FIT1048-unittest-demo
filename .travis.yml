@@ -20,8 +20,7 @@ script:
   - ctest
 
 after_success:
-  - coveralls --root .. -E * -I src
-  - .cpp.*"
+  - coveralls --root .. -E ".*external.*" -E ".*CMakeFiles.*" -E ".*test/.*.cpp.*" -E "gtest*"
 
 notifications:
   email: false
